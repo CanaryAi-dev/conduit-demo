@@ -1,5 +1,5 @@
 export interface Profile {
-  username: string;
+  handle: string;
   bio: string;
   image: string;
   following: boolean;
