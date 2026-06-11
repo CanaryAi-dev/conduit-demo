@@ -1,7 +1,7 @@
 import { User } from '../auth/user.model';
 
 const authorMapper = (author: any, id?: number) => ({
-  username: author.username,
+  handle: author.username,
   bio: author.bio,
   image: author.image,
   following: id
